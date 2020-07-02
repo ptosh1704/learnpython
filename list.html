@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List Document</title>
+    <style>
+        ol > li{
+            color: aquamarine
+        }
+        input[type=text]{
+            color: aquamarine
+        }
+        a::before{
+            content: " I am";
+            color: rebeccapurple
+        }
+    </style>
+</head>
+    
+    <body>
+    <ul>
+        <li>
+        <a href="#index1">Section 1</a>
+        </li>
+         <li>
+        <a href="#index2"> Section2</a>
+        </li>
+        </ul>
+        
+        <h2 id="index1"> section 1</h2>
+        
+        <p>eclipse.preferences.version=1 org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.5 org.eclipse.jdt.core.compiler.compliance=1.5
+org.eclipse.jdt.core.compiler.problem.enablePreviewFeatures=disabled org.eclipse.jdt.core.compiler.problem.forbiddenReference=warning
+org.eclipse.jdt.core.compiler.problem.reportPreviewFeatures=ignore org.eclipse.jdt.core.compiler.release=disabled org.eclipse.jdt.core.compiler.source=1.5eclipse.preferences.version=1 org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.5
+org.eclipse.jdt.core.compiler.compliance=1.5 org.eclipse.jdt.core.compiler.problem.enablePreviewFeatures=disabled
+org.eclipse.jdt.core.compiler.problem.forbiddenReference=warning org.eclipse.jdt.core.compiler.problem.reportPreviewFeatures=ignore org.eclipse.jdt.core.compiler.release=disabled org.eclipse.jdt.core.compiler.source=1.5</p>
+        
+        
+         <h2 id="index2"> section 2</h2>
+        
+        <p>eclipse.preferences.version=1 org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.5 org.eclipse.jdt.core.compiler.compliance=1.5
+org.eclipse.jdt.core.compiler.problem.enablePreviewFeatures=disabled org.eclipse.jdt.core.compiler.problem.forbiddenReference=warning
+org.eclipse.jdt.core.compiler.problem.reportPreviewFeatures=ignore org.eclipse.jdt.core.compiler.release=disabled org.eclipse.jdt.core.compiler.source=1.5eclipse.preferences.version=1 org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.5
+org.eclipse.jdt.core.compiler.compliance=1.5 org.eclipse.jdt.core.compiler.problem.enablePreviewFeatures=disabled
+org.eclipse.jdt.core.compiler.problem.forbiddenReference=warning org.eclipse.jdt.core.compiler.problem.reportPreviewFeatures=ignore org.eclipse.jdt.core.compiler.release=disabled org.eclipse.jdt.core.compiler.source=1.5</p>
+    </body>
+    
+    <div>
+        <input type="text" name="name" placeholder="Name">Name
+        <input type="password" name="password" placeholder="Password">Password       
+    </div>
+    
+    <div>
+    Favorite colour
+        Red<input name="name" type="radio" value"red">
+        Blue<input name="name" type="radio" value"Blue">
+
+    </div>
+    
+    <div>
+    <input name="country" list="countries" placeholder="Country">
+        <datalist id="countries">
+        <option value="United Arab Emirates"></option>
+         <option value="United States"></option>
+        <option value="India"></option>
+
+
+        </datalist>
+        
+        
+        <ol>
+        <li>FIRST</li>
+        <li>SECOND</li>
+        <ul>
+            <li>inside element - 1</li>
+            <li>inside element - 11</li>
+        </ul>
+        <li>THIRD</li>
+        </ol>
+        
+    </div>
+</html>
